@@ -143,39 +143,26 @@ aside a:hover {
 .text-red {
     color: #ff6347;
 }
-.container-volver {
-    background-color: #000;
-    display: grid;
-    place-items: end ;
-    
-}
-.volver {
-    width: 4%;
-    background-color: #ff6347;
-    justify-self: end;
-}
-.volver a {
-    /* justify-self: end; */
 
-    /* align-self: self-end; */
+.volver {
+    width: 5%;
+    background-color: #ff6347;
 }
 footer {
     background-color: #181727;
-    margin-top: 30px;
-    height: 100%;
-    padding: 10px;
-    color: #fff;
-    position: relative;
-    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index:1000;
+
 }
 .footer {
-    display: inline-flex;
-    margin-left: 15%;
-    
+     font-size: 1vw;
 }
 .footer a {
     text-decoration: none;
-    color: #fff;
+    color: #fff;..
 }
 .footer a:hover {
     color: #ff6347;
